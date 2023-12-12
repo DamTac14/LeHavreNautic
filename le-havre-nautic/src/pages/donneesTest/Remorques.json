@@ -1,0 +1,51 @@
+[
+    {
+        "nom":"JFOIDJF",
+        "PTAC":955,
+        "charge":"dàfj",
+        "longueur":140,
+        "largeur":140,
+        "resistance":"udhu",
+        "tete":"hud",
+        "chassis":"",
+        "roues":"mich",
+        "equipement":"dfd",
+        "etat":"occasion",
+        "image":[""],
+        "prix":700
+    },
+    {
+        "nom":"qdfdf",
+        "PTAC":878,
+        "charge":"fsdfsdf",
+        "longueur":40,
+        "largeur":1,
+        "resistance":"",
+        "tete":"sdfsdf",
+        "chassis":"nozhd",
+        "roues":"mich",
+        "equipement":"fdqa",
+        "etat":"neuf",
+        "image":["https://s1.medias-norauto.fr/images_produits/650x650/696543.jpg",
+        "https://s1.medias-norauto.fr/images_produits/650x650/696543.jpg",
+      "https://www.techni-contact.com/ressources/images/produits/zoom/2797403-1.jpg",
+        "https://s1.medias-norauto.fr/images_produits/650x650/696543.jpg"],
+        "prix":500
+    },
+    {
+        "nom":"jhdfoij pogspig",
+        "PTAC":"5555555",
+        "charge":"df",
+        "longueur":140,
+        "largeur":40,
+        "resistance":"ffff",
+        "tete":"erra  a",
+        "chassis":"dfdsfsdf",
+        "roues":"mich",
+        "equipement":"fdqa",
+        "etat":"occasion",
+        "image":["https://s1.medias-norauto.fr/images_produits/650x650/696543.jpg",
+        "https://s1.medias-norauto.fr/images_produits/650x650/696543.jpg"],
+        "prix":500
+    }
+]

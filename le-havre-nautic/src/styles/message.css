@@ -1,0 +1,48 @@
+/* message général qui renvoie les réponses du serveur */
+
+#message {
+    color: #fff;
+    width: 50%;
+    font-size: 18px;
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+#message p {
+    margin: 0;
+  }
+
+  /* couleur lors d'erreur */
+  
+#message.error {
+    background-color: #a12112;
+  }
+  
+    /* couleur lors de succès */
+
+#message.success {
+    background-color: #3bf98a;
+    color: black;
+  }
+
+    /* Retourn lors de la connexion */
+
+#messageConnexion {
+    font-size: 12px;
+    padding-bottom: 1%;
+    text-align: center;
+}
+
+
+  /* Reponsive design */
+
+  @media only screen and (max-width: 900px) {
+
+    #message {
+        font-size: 12px;
+    }
+    
+  }

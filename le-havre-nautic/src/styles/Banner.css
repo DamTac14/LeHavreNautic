@@ -1,0 +1,89 @@
+/* Design du bandeau de bannière */
+
+.LHC-banner {
+        width: cover;
+        color: rgb(255, 255, 255);
+        font-size:30px;
+        text-align: right;
+        padding: 35px;
+        font-family: 'Merriweather';
+        border-width: 0px;
+        border-style: solid;
+        border-bottom-width: 2px;
+        border-image:linear-gradient(90deg, #04184c,#da0000) 1;
+        transition: font-size 0.6s ease-in-out;
+}
+
+/* texte global */
+
+.LHC-banner p {
+        font-size: 16px;
+}
+
+/* liens de connnexion et déconnexion */
+.connexion {
+        text-align: left;
+}
+
+.deconnexion {
+        outline-style: none;
+        background: none;
+        color:white;
+        border: none;
+}
+
+.imageConnexion {
+        width: 12px;
+}
+
+.connexion button {
+        transition: font-size 0.3s ease-in-out; 
+}
+
+.connexion a {
+        font-size: 12px;
+        text-decoration: none;
+        color:white;
+        transition: font-size 0.3s ease-in-out; 
+}
+
+.connexion a:hover,
+.deconnexion:hover {
+        color:rgb(237, 37, 37);
+        text-shadow: 0px 0px 10px rgb(13, 0, 0);
+        cursor: pointer;
+}
+
+.connexion img {
+        padding-right:5px;
+}
+
+/* responsive design */
+      @media only screen and (max-width: 900px) {
+
+                .LHC-banner {
+                font-size: 20px;
+                padding:15px;
+                }
+
+                .LHC-banner p {
+                font-size: 10px;
+                }
+
+                .connexion a,
+                .connexion button,
+                #messageConnexion {
+                font-size: 8px;
+                margin-bottom: 8px;
+                }
+
+                .imageConnexion{
+                width: 8px;
+                }
+
+                .connexion img {
+                padding-right:2px;
+                }
+
+        }
+      

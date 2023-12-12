@@ -1,0 +1,30 @@
+{
+    "motors": [
+      {
+        "nomClient": "John Doe",
+        "appareil": "Airbus A320",
+        "immatriculation": "F-GJTN",
+        "numeroSerie": "12345",
+        "dateEntree": "2022-02-28",
+        "commentaires": ["Batterie à changer", "Nécessite une vidange"],
+        "etapes": [
+          {"id": 1, "nom": "Changer la batterie", "termine": true},
+          {"id": 2, "nom": "Faire la vidange", "termine": false},
+          {"id": 3, "nom": "Réparer le train d'atterrissage", "termine": false}
+        ]
+      },
+      {
+        "nomClient": "Jane Smith",
+        "appareil": "Boeing 737",
+        "immatriculation": "N12345",
+        "numeroSerie": "67890",
+        "dateEntree": "2022-02-28",
+        "commentaires": ["Moteur droit en panne"],
+        "etapes": [
+          {"id": 1, "nom": "Réparer le moteur droit", "termine": false},
+          {"id": 2, "nom": "Faire la maintenance annuelle", "termine": false}
+        ]
+      }
+    ]
+  }
+  

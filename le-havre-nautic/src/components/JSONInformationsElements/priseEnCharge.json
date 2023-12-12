@@ -1,0 +1,44 @@
+[  {    "label": "Nom",    
+        "id": "nom_client",    
+        "name": "nom_client",    
+        "type": "text"  },  
+        
+    {   "label": "Prénom",    
+        "id": "prenom_client",    
+        "name": "prenom_client",    
+        "type": "text"  },  
+
+    {   "label": "Bateau",    
+        "id": "bateau_client",    
+        "name": "bateau_client",    
+        "type": "text"  },  
+
+    {   "label": "Immatriculation bateau",    
+        "id": "immatriculation_bateau",    
+        "name": "immatriculation_bateau",    
+        "type": "text"  }, 
+
+    {   "label": "Moteur du bateau",    
+        "id": "moteur_bateau",    
+        "name": "moteur_bateau",    
+        "type": "text"  },  
+        
+    {   "label": "N° de série moteur",    
+        "id": "numserie_moteur_bateau",    
+        "name": "numserie_moteur_bateau",    
+        "type": "text"  },  
+
+    {   "label": "Date d'entrée",    
+        "id": "date_entree",    
+        "name": "date_entree",    
+        "type": "text"  },  
+
+    {   "label": "Commentaire",    
+        "id": "commentaire",    
+        "name": "commentaire",    
+        "type": "text"  }, 
+
+    {   "label": "Progression",    
+        "id": "progression_reparation",    
+        "name": "progression_reparation",    
+        "type": "text"  }]

@@ -1,0 +1,15 @@
+.footer {
+    background-color: #080113;
+    color: white;
+    position: sticky;
+    width: 100%;
+    text-align: center;
+    z-index: 50;
+  }
+  
+  .footer__text {
+    display: inline-block;
+    padding: 10px 20px; 
+    text-align: left;
+    font-size: 10px;
+  }

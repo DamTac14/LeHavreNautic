@@ -1,0 +1,19 @@
+[{      "label": "Période (en année)",    
+        "id": "periode",    
+        "name": "periode",    
+        "type": "text"  },
+
+{       "label": "Etape",    
+        "id": "etape",    
+        "name": "etape",    
+        "type": "text"  },
+
+{       "label": "Reference",    
+        "id": "reference",    
+        "name": "reference",    
+        "type": "text"  },
+
+{       "label": "Quantite",    
+        "id": "quantite",    
+        "name": "quantite",    
+        "type": "text"  }]

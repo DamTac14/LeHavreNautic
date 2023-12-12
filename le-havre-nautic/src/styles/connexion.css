@@ -1,0 +1,185 @@
+/* Design de formulaire global */
+
+.form {
+    width: 85%;
+    border-radius: 10px;
+    backdrop-filter: blur(30px);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+    padding: 50px 35px;
+    text-align: center;
+    color: white;
+    background-color: rgba(5, 1, 24, 0.5);
+    margin: 0 auto; 
+    height: 65vh; 
+    margin-bottom: 60px;
+    z-index: 800;
+  }
+  
+
+  
+/* prise en compte de tous les éléments qui sont englobés par le className form */
+
+.form * {
+    font-family: 'Poppins',sans-serif;
+    color: #ffffff;
+    letter-spacing: 0.5px;
+    outline: none;
+    border: none;
+}
+/* titre du formulaire */
+
+.form h2 {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 42px;
+    text-align: center;
+}
+
+/* sous titre lié aux éléments dynamiques (inputs) du formulaire */
+.form label{
+    display: block;
+    margin-top: 30px;
+    font-size: 22px;
+    font-weight: 500;
+    text-shadow: 0 0 5px rgba(8,7,16,0.8);
+}
+
+/* design des boutons */
+
+.ConnexionButton,
+.annuler,
+.inputConnexion,
+.valider {
+    display: block;
+    height: 50px;
+    border-radius: 3px;
+    padding: 0 10px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+
+.annuler,
+.inputConnexion,
+.valider {
+    margin: 15px 0px;
+}
+
+.ConnexionButton {
+    margin: 5px 0px;
+}
+
+.inputConnexion {
+    background-color: #03011880;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.17);
+}
+
+
+.ConnexionButton{
+    background: linear-gradient(45deg, #171064, #030118);
+}
+
+
+
+.ConnexionButton,
+.annuler,
+.valider {
+    letter-spacing: 0.35em;
+    font-size: 19px;
+    margin: auto;
+    color:white;
+    border: none;
+}
+
+.inputConnexion{
+    width: 65%;
+    color:white;
+    margin: auto;
+    margin-top:1%;
+}
+
+.annuler {
+    background: linear-gradient(45deg, #ff1313, #6f0101);
+    cursor: pointer;
+    width: 90%;
+}
+
+.ConnexionButton:active,
+.annuler:active {
+    box-shadow: inset 0px 6px 2px rgb(3, 0, 14, 0.6),
+    0px 3px 4px rgb(3, 0, 14, 0.2);
+    padding-top:10px;
+    transition:all 0.15s;
+}
+
+.inputConnexion:focus{
+    background-color: #100978a8;
+    color:white;
+}
+
+.valider {
+    background: linear-gradient(45deg, #2ef968, #048a2a);
+    color:#030118;
+    cursor: pointer;
+    width: 90%;
+}
+
+.valider:hover {
+background: #2ef968;
+}
+
+.annuler:hover{
+    background:#ff1313 ;
+}
+
+::placeholder{
+    color: #e5e5e5;
+}
+
+.ConnexionButton:hover{
+    cursor: pointer;
+    background-color: rgb(11, 2, 103);
+}
+
+/* design du message */
+
+#message {
+    color: #fff;
+    width: 50%;
+    font-size: 18px;
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+#message p {
+    margin: 0;
+  }
+  
+#message.error {
+    background-color: #a12112;
+  }
+  
+#message.success {
+    background-color: #3bf98a;
+    color: black;
+  }
+  
+
+  /* Responsive design */
+  @media only screen and (max-width: 900px) {
+
+    .form {
+        width: 65%;
+        height: 150%;
+        transform: translate(-50%,0%);
+    }
+
+    #message {
+        font-size: 12px;
+    }
+    
+  }

@@ -1,0 +1,30 @@
+[  {    "label": "Nom",    
+        "id": "nom_employe",    
+        "name": "nom_employe",    
+        "type": "text"  },  
+        
+    {   "label": "Prénom",    
+        "id": "prenom_employe",    
+        "name": "prenom_employe",    
+        "type": "text"  },  
+
+    {   "label": "Mail",    
+        "id": "mail_employe",    
+        "name": "mail_employe",    
+        "type": "text"  },  
+
+    {   "label": "Téléphone",    
+        "id": "telephone_employe",    
+        "name": "telephone_employe",    
+        "type": "text"  }, 
+
+    {   "label": "Mot de passe",    
+        "id": "mdp_employe",    
+        "name": "mdp_employe",    
+        "type": "text"  },
+    {
+        "label": "Supprimer",
+        "id":"supprimer",
+        "name":"supprimer",
+        "type":"submit"
+    }]

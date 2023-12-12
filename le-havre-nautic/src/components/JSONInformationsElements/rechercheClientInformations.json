@@ -1,0 +1,32 @@
+[{
+    "label": "Bateau",
+    "id":"bateau_client",
+    "name":"bateau_client"
+    },
+    {
+    "label": "Nom bateau",
+    "id":"nom_bateau_client",
+    "name":"nom_bateau_client"
+    },
+    {
+    "label": "Moteur",
+    "id":"moteur_client",
+    "name":"moteur_client"
+    },
+    {
+    "label": "Date d'entrée",
+    "id":"date_entree",
+    "name":"date_entree"
+    },
+    {
+    "label": "Date de sortie",
+    "id":"date_sortie",
+    "name":"date_sortie"
+    },
+    {
+        "label": "Supprimer",
+        "id":"supprimer",
+        "name":"supprimer",
+        "type":"submit"
+    }
+]

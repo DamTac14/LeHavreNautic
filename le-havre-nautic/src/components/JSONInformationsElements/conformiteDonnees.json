@@ -1,0 +1,28 @@
+[  
+        {"label": "Hélice ref",    
+        "id": "helice_ref"  }, 
+
+        {"label": "Fonctionnement trim",    
+        "id": "trim"  },  
+
+        {"label": "Volant droite gauche",    
+        "id": "volant"  },  
+
+        {"label": "Impact sur coque",    
+        "id": "impact_coque"  },  
+
+        {"label": "Impact sur flotteur",    
+        "id": "impact_flotteur"  },  
+
+        {"label": "Contrôle équipements",    
+        "id": "equipements"  },  
+
+        {"label": "Contrôle feux",    
+        "id": "feux"  },  
+
+        {"label": "Pare Battages (QTS)",    
+        "id": "pare_battages"  },  
+         
+        {"label": "Amarres (QTS)",    
+        "id": "amarres"  }
+]

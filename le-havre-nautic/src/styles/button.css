@@ -1,0 +1,167 @@
+/* Design de différents boutons à travers le site */
+
+.buttonFinal,
+.buttonEtapes,
+.EnvoiButton,
+.buttonPasHelice,
+.buttonCalcul  {
+    display: inline-block;
+    border: none;
+    color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+    padding: 8px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+.buttonCalcul,
+.buttonEtapes,
+.EnvoiButton,
+.buttonPasHelice{
+  background: linear-gradient(45deg, #395492, #02184a);
+}
+
+.buttonFinal,
+.buttonCalcul,
+.buttonEtapes,
+.EnvoiButton,
+.buttonPasHelice{
+  border-radius: 4px 24px 4px 24px;
+}
+
+.buttonFinal {
+  background: linear-gradient(45deg, #2af259, #5ab50b);
+  color:black;
+}
+
+.buttonFinal:hover {
+  box-shadow: 0px 0px 5px #05011f;
+}
+
+.buttonFinal:active {
+  background: linear-gradient(45deg, #1fb843, #3c7807);
+  color:white;
+  box-shadow: 0px 0px 10px #05011f;
+}
+
+.buttonFinal,
+.buttonEtapes,
+.EnvoiButton {
+  width: 80%;
+}
+
+.buttonPasHelice{
+  width: 25%;
+}
+
+.buttonCalcul{
+  width: 10%;
+}
+
+/* Boutons de suppression */
+
+.supprButton,
+.supprButtonRecherche,
+#bt-clear {
+  font-size: 20px;
+  transform: translateY(-50%);
+  padding: 5px 25px;
+  border-radius: 12px;
+  background: linear-gradient(45deg, #f53f3f, #530101);
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.supprButton,
+.supprButtonRecherche {
+  position: absolute;
+}
+
+.supprButton{
+    top: 33%;
+    right: 31%;
+}
+
+.supprButtonRecherche{
+    top: 22%;
+    right: 31%;
+}
+
+
+
+
+/* retour de message */ 
+#periodeMessage{
+  font-size: 10px;
+  margin-bottom: 1%;
+}
+
+/* design du parent de confirmation de suppression côté administrateur */
+
+.parent-confirmation-suppression {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 9999;
+}
+
+/* confirmation de suppression design */
+
+.confirmation-suppression {
+  height: 86.3vh;
+  background-color: rgba(5, 1, 24, 0.27);
+  top:0;
+  padding: 50px;
+  width: 75%;
+  text-align: center;
+  position: relative;
+  z-index: 4;
+  color:white;
+}
+
+/* responsive design global des boutons */
+
+
+@media only screen and (max-width: 900px) {
+
+  .buttonFinal,
+  .buttonEtapes,
+  .EnvoiButton,
+  .buttonPasHelice,
+  .buttonCalcul {
+    font-size: 7px;
+    padding: 3px;
+  }
+
+  .buttonCalcul {
+    width: 35%;
+  }
+
+  .supprButtonRecherche{
+    top: 28%;
+    right: 15%;
+    font-size:10px;
+    padding: 5px 20px;
+  }
+
+
+  .buttonFinal,
+  .buttonEtapes,
+  .EnvoiButton {
+    width: 80%;
+    padding: 5px;
+    line-height: 8px;
+    border-radius:5px 15px;
+  }
+
+}

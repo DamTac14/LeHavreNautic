@@ -1,0 +1,24 @@
+[  {    "label": "Nom",    
+        "id": "nom_client",    
+        "name": "nom_client",    
+        "type": "text"  },  
+        
+    {   "label": "Prénom",    
+        "id": "prenom_client",    
+        "name": "prenom_client",    
+        "type": "text"  },  
+
+    {   "label": "Mail",    
+        "id": "mail_client",    
+        "name": "mail_client",    
+        "type": "text"  },  
+
+    {   "label": "Téléphone",    
+        "id": "telephone_client",    
+        "name": "telephone_client",    
+        "type": "text"  }, 
+
+    {   "label": "Emplacement portuaire",    
+        "id": "emplacement_portuaire_client",    
+        "name": "emplacement_portuaire_client",    
+        "type": "text"  }]

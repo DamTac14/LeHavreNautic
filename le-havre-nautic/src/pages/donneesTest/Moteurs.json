@@ -1,0 +1,28 @@
+[
+    { "marque":"Mercury",
+    "nom":"F8 F9.9",
+    "gamme":"",
+    "reference":"8M0062042",
+    "puissance":209,
+    "poids":6000,
+    "consommation":"",
+    "bruit":"",
+    "taxe":"",
+    "etat":"occasion",
+    "prix":480
+
+  },
+  {
+    "marque":"Suzuki",
+    "nom":"DF300AP",
+    "gamme":6,
+    "reference":"",
+    "puissance":300,
+    "poids":274,
+    "consommation":"",
+    "bruit":"",
+    "taxe":"",
+    "etat":"neuf",
+    "prix":28770
+  }
+]

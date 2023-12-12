@@ -1,0 +1,104 @@
+table {
+    width:98%;
+    margin: auto;
+    border-collapse: collapse;
+    margin-bottom: 5%;
+}
+
+td a {
+    text-decoration: none;
+    color: black;
+}
+
+td a:hover {
+    color: rgb(103, 0, 0);
+}
+
+/* personnalisation des lignes de tableau en fonction des entretiens, du sous header */
+
+.seconde-ligne {
+    background: linear-gradient(10deg,#670202, #060f7b, #0c014c, #040017);
+    font-size: 20px;
+    letter-spacing: 0.2em;
+}
+
+.entretien {
+    background: #670202;
+}
+
+.ans3 {
+    background-color: rgba(34, 42, 111, 0.62);
+    color: white;
+}
+
+.ans2 {
+    background-color: rgba(58, 72, 197, 0.62);
+    color: white;
+}
+.ans5 {
+    background-color: rgba(12, 16, 47, 0.921);
+    color: white;
+}
+
+
+/* design des tableaux de manière générale */ 
+th {
+    border: solid 1px black;
+    background-color: #02184a;
+    color: white;
+    font-size: 15px;
+    padding: 5px;
+}
+
+td {
+    border: solid 2px black;
+    padding: 5px;
+    background-color: #7194e5;
+    color:rgb(0, 0, 0);
+}
+
+th,
+td {
+    text-align: center;
+    width:5%;
+}
+
+ul {
+    list-style: none;
+}
+
+
+/* Design des inputs type text et type password */ 
+
+table input[type=text],
+table input[type=password] {
+    width: 80%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+
+/* 
+Responsive design qui permet de faire tenir les différents tableaux en fonction des supports
+*/
+
+@media only screen and (max-width: 900px) {
+
+    table {
+        width: 80%;
+    }
+
+    th {
+        font-size: 0.4em;
+        padding:2px;
+    }
+    
+    td {
+        font-size: 0.35em;
+        padding: 2px;
+    }
+
+}

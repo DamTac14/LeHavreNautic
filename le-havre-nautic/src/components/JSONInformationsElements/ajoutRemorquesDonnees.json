@@ -1,0 +1,70 @@
+[  {    "label": "Marque",    
+        "id": "marque_remorque",    
+        "name": "marque_remorque",    
+        "type": "text"  },  
+        
+    {   "label": "Nom",    
+        "id": "nom_remorque",    
+        "name": "nom_remorque",    
+        "type": "text"  },  
+
+    {   "label": "Immatriculation",    
+        "id": "immatriculation_remorque",    
+        "name": "immatriculation_remorque",    
+        "type": "text"  },  
+
+    {   "label": "PTAC",    
+        "id": "ptac_remorque",    
+        "name": "ptac_remorque",    
+        "type": "text"  }, 
+
+    {   "label": "Charge",    
+        "id": "charge_remorque",    
+        "name": "charge_remorque",    
+        "type": "text"  }, 
+
+    {   "label": "Longueur",    
+        "id": "longueur_remorque",    
+        "name": "longueur_remorque",    
+        "type": "text"  }, 
+
+    {   "label": "Largeur",    
+        "id": "largeur_remorque",    
+        "name": "largeur_remorque",    
+        "type": "text"  }, 
+
+    {   "label": "Résistance",    
+        "id": "resistance_remorque",    
+        "name": "resistance_remorque",    
+        "type": "text"  }, 
+
+    {   "label": "Tete",    
+        "id": "tete_remorque",    
+        "name": "tete_remorque",    
+        "type": "text"  }, 
+
+    {   "label": "Chassis",    
+        "id": "chassis_remorque",    
+        "name": "chassis_remorque",    
+        "type": "text"  }, 
+
+    {   "label": "Roues",    
+        "id": "roues_remorque",    
+        "name": "roues_remorque",    
+        "type": "text"  }, 
+        
+        {   "label": "Etat",    
+        "id": "etat_remorque",    
+        "name": "etat_remorque",    
+        "type": "text"  }, 
+
+    {   "label": "Prix",    
+        "id": "prix_remorque",    
+        "name": "prix_remorque",    
+        "type": "text"  },
+    {
+        "label": "Supprimer",
+        "id":"supprimer",
+        "name":"supprimer",
+        "type":"submit"
+    }]

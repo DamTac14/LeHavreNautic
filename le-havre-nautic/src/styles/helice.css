@@ -1,0 +1,49 @@
+/* texte global */
+.pasHelice {
+    text-align: center;
+  }
+    
+  .pasHelice p {
+    color: white;
+  }
+  
+  /* contour du composant intégré */
+  .pasHeliceContour {
+    border-bottom: 3px solid white;
+    width: 50%;
+    margin: auto;
+    padding: 5px;
+  }
+
+/* Input de type number dans le composant */ 
+  input[type=number]::placeholder {
+    color:black;
+  }
+  
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
+  
+input[type=number] {
+    padding:5px;
+    margin:5px;
+    -moz-appearance: textfield; /* Firefox */
+  }
+
+  /* Responsive designer du pas d'helice */
+  
+  @media only screen and (max-width: 900px) {
+  
+    input[type=number] {
+      font-size: 10px;
+    }
+  
+    input[type=text]::placeholder {
+      font-size: 10px;
+    }
+
+  
+  }

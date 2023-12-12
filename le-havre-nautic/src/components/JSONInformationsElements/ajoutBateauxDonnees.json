@@ -1,0 +1,77 @@
+[  {    "label": "Nom bateau",    
+        "id": "nom_bateau",    
+        "name": "nom_bateau",    
+        "type": "text"  }, 
+
+    {   "label": "Gamme bateau",    
+        "id": "gamme_bateau",    
+        "name": "gamme_bateau",    
+        "type": "text"  }, 
+
+    {   "label": "Moteur",    
+        "id": "moteur_bateau",    
+        "name": "moteur_bateau",    
+        "type": "text"  }, 
+        
+    {   "label": "Immatriculation",    
+        "id": "immatriculation_bateau",    
+        "name": "immatriculation_bateau",    
+        "type": "text"  }, 
+        
+    {   "label": "Année",    
+        "id": "annee_bateau",    
+        "name": "annee_bateau",    
+        "type": "text"  },  
+
+    {   "label": "Numéro de série",    
+        "id": "numserie_bateau",    
+        "name": "numserie_bateau",    
+        "type": "text"  }, 
+
+    {   "label": "Longueur",    
+        "id": "longueur_bateau",    
+        "name": "longueur_bateau",    
+        "type": "text"  }, 
+
+    {   "label": "Largeur",    
+        "id": "largeur_bateau",    
+        "name": "largeur_bateau",    
+        "type": "text"  }, 
+
+    {   "label": "Tirant d'air",    
+        "id": "tirant_air_bateau",    
+        "name": "tirant_air_bateau",    
+        "type": "text"  }, 
+
+    {   "label": "Tirant d'eau",    
+        "id": "tirant_eau_bateau",    
+        "name": "tirant_eau_bateau",    
+        "type": "text"  }, 
+
+    {   "label": "Nombre de cabines",    
+        "id": "cabines_bateau",    
+        "name": "cabines_bateau",    
+        "type": "text"  }, 
+
+    {   "label": "Nombre de couchettes",    
+        "id": "couchettes_bateau",    
+        "name": "couchettes_bateau",    
+        "type": "text"  }, 
+
+    {
+        "label": "Etat",
+        "id":"etat_bateau",
+        "name":"etat_bateau",
+        "type":"text"
+    },
+
+    {   "label": "Prix",    
+        "id": "prix_bateau",    
+        "name": "prix_bateau",    
+        "type": "text"  },
+    {
+        "label": "Supprimer",
+        "id":"supprimer",
+        "name":"supprimer",
+        "type":"submit"
+    }]

@@ -1,0 +1,50 @@
+[  {    "marque": "Jeanneau",
+"type_bateau":"voilier",
+"annee": 2002,
+"type_coque":"",    
+"longueur_coque":152,    
+"materiaux_coque":"Fibre de verre",    
+"largeur_bau":25,    
+"tirant_air_max":15,    
+"tirant_eau_max":5,    
+"cabines_max":1,    
+"couchettes_max":1,    
+"moteur":["1 moteur",              
+          "Marque : Volvo Penta",                
+          "Puissance : 214 Ch",                
+          "Energie: Diesel",                
+          "In bord",              
+          "Année : 2004"],
+    "etat": "Occasion", 
+    "images": [
+      "https://www.euro-voiles.com/photos/pgiArticle/1606-1/jeanneau-db-43.jpg",
+      "https://www.euro-voiles.com/photos/pgiArticle/1606-1/jeanneau-db-43.jpg"
+    ],
+    "prix":30000
+  },
+  {
+    "marque": "Bénéteau",
+    "type_bateau":"jetski",
+    "annee":2004,
+    "type_coque":"Métal",
+    "longueur_coque":170,
+    "materiaux_coque":"Fibre de verre",
+    "largeur_bau":30,
+    "tirant_air_max":18,
+    "tirant_eau_max":6,
+    "cabines_max":2,
+    "couchettes_max":4,
+    "moteur":["2 moteurs",
+              "Marque : Yamaha",
+                "Puissance : 300 Ch",
+                "Energie: Essence",
+                "Hors bord",
+              "Année : 2015"],
+    "etat": "Neuf", 
+    "images": [
+      "https://www.beneteau.com/sites/default/files/public/styles/large/public/boat_files/barracuda-9/image/barracuda9_23_beneteau_ext_017_st_1920x1000.jpg",
+      "https://www.beneteau.com/sites/default/files/public/styles/large/public/boat_files/barracuda-9/image/barracuda9_23_beneteau_ext_010_st_1920x1000.jpg"
+    ],
+    "prix":50000
+  }
+]

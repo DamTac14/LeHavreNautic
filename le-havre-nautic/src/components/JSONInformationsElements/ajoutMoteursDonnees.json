@@ -1,0 +1,60 @@
+[  {    "label": "Nom moteur",    
+        "id": "nom_moteur",    
+        "name": "nom_moteur",    
+        "type": "text"  },  
+      
+    {   "label": "Numéro de série",    
+        "id": "numserie_moteur",    
+        "name": "numserie_moteur",    
+        "type": "text"  }, 
+    
+    {   "label": "Référence",    
+        "id": "reference_moteur",    
+        "name": "reference_moteur",    
+        "type": "text"  },
+
+    {   "label": "Puissance",    
+        "id": "puissance_moteur",    
+        "name": "puissance_moteur",    
+        "type": "text"  }, 
+
+    {   "label": "Année de fabrication",    
+        "id": "annee_moteur",    
+        "name": "annee_moteur",    
+        "type": "text"  }, 
+
+    {   "label": "Poids",    
+        "id": "poids_moteur",    
+        "name": "poids_moteur",    
+        "type": "text"  }, 
+
+    {   "label": "Bruit",    
+        "id": "bruit_moteur",    
+        "name": "bruit_moteur",    
+        "type": "text"  }, 
+
+        {   "label": "Taxe",    
+        "id": "taxe_moteur",    
+        "name": "taxe_moteur",    
+        "type": "text"  }, 
+
+    {   "label": "Utilisation en année",    
+        "id": "annee_utilisation_moteur",    
+        "name": "annee_utilisation_moteur",    
+        "type": "text"  }, 
+
+    {   "label": "Etat",    
+        "id": "etat_moteur",    
+        "name": "etat_moteur",    
+        "type": "text"  },
+
+    {   "label": "Prix",    
+        "id": "prix_moteur",    
+        "name": "prix_moteur",    
+        "type": "text"  },
+    {
+        "label": "Supprimer",
+        "id":"supprimer",
+        "name":"supprimer",
+        "type":"submit"
+    }]

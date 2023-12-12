@@ -1,0 +1,20 @@
+[  {    "nom": "UTF-89",
+"appareil": "remorque JY-WX8",
+    "etat": "Occasion", 
+    "images": [
+      "https://www.euro-voiles.com/photos/pgiArticle/1606-1/jeanneau-db-43.jpg",
+      "https://www.euro-voiles.com/photos/pgiArticle/1606-1/jeanneau-db-43.jpg"
+    ],
+    "prix":145
+  },
+  {
+    "nom": "UTF-89",
+"appareil": "bateau Merry Fisher KJHD-7512",
+    "etat": "Occasion", 
+    "images": [
+      "https://www.euro-voiles.com/photos/pgiArticle/1606-1/jeanneau-db-43.jpg",
+      "https://www.euro-voiles.com/photos/pgiArticle/1606-1/jeanneau-db-43.jpg"
+    ],
+    "prix":75
+  }
+]
