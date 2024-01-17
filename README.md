@@ -17,7 +17,9 @@
 
 Installer NodeJS sur son poste : https://nodejs.org/en
 
-Dans le terminal : **npm install** 
+```bash
+npm install [module]
+```
 
 _Répéter l'opération pour chacun des modules_
 
@@ -30,14 +32,17 @@ _Répéter l'opération pour chacun des modules_
 * os
 
 ## Lancement 
-**Ouvrir deux terminal**
+**Ouvrir deux terminal à partir du dossier Le-Havre-Nautic**
 
 ### Configuration front-end
 
 _Premier terminal_
 
-Dossier » **Le-Havre-Nautic**
-Terminal » **npm start**
+```bash
+npm start
+```
+
+_Vous aurez un message de compilation réussie et également sur quel port (localhost ou adresse ip) le site tournera._
 
 ### Configuration back-end
 
@@ -50,4 +55,6 @@ cd src
 cd server 
 node server
 ```
+
+Vous aurez un message qui annoncera que le serveur est lancé et fonctionne correctement.
 
