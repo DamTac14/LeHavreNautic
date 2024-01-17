@@ -1,0 +1,12 @@
+# FRAMEWORKS & LANGAGES
+
+## Front-End
+•	REACTJS
+•	JAVASCRIPT
+•	HTML
+•	CSS
+
+## Back-End
+•	NODEJS (API REST)
+•	EXPRESSJS
+•	MYSQL
