@@ -11,6 +11,23 @@
 •	EXPRESSJS
 •	MYSQL
 
+# STRUCTURE DES DOSSIERS
+
+* Le-Havre-Nautic
+  * src
+    * administrateur
+      * Regroupe le menu, toutes les pages concernant l'interface administrateur 
+    * components
+      * Regroupe tous les composants qui seront exportés et réutilisés sur les différentes pages
+    * img
+      * Regroupe les images
+    * pages
+      * Regroupe les différentes pages principales du site
+    * server
+      * Regroupe les modules, middleware et configurations du serveur (Node.JS)
+    * styles
+      * Regroupe les feuilles cascades de styles
+
 # LANCEMENT DE L'APPLICATION
 
 ## Installation des modules 
