@@ -32,19 +32,22 @@ _Répéter l'opération pour chacun des modules_
 ## Lancement 
 **Ouvrir deux terminal**
 
-### Front-end
+### Configuration front-end
 
 _Premier terminal_
 
 Dossier » **Le-Havre-Nautic**
 Terminal » **npm start**
 
-### Back-end
+### Configuration back-end
 
 _Importer dans wampserver le fichier  **lhnautic.sql** avec une base de donnée du même nom sans l'extension._
 
 _Second terminal_
 
-cd src _enter_
-cd server _enter_ 
-node server _enter_
+```bash
+cd src 
+cd server 
+node server
+```
+
