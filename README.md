@@ -15,17 +15,17 @@
 
 * Le-Havre-Nautic
   * src
-    * administrateur
+    * **administrateur**
       * Regroupe le menu, toutes les pages concernant l'interface administrateur 
-    * components
+    * **components**
       * Regroupe tous les composants qui seront exportés et réutilisés sur les différentes pages
-    * img
+    * **img**
       * Regroupe les images
-    * pages
+    * **pages**
       * Regroupe les différentes pages principales du site
-    * server
+    * **server**
       * Regroupe les modules, middleware et configurations du serveur (Node.JS)
-    * styles
+    * **styles**
       * Regroupe les feuilles cascades de styles
 
 # LANCEMENT DE L'APPLICATION
