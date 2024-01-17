@@ -53,8 +53,10 @@ _Second terminal_
 ```bash
 cd src 
 cd server 
-node server
+node server.js
 ```
 
 Vous aurez un message qui annoncera que le serveur est lancé et fonctionne correctement.
+
+Arrêtez les serveurs dans le terminal appuyez simultanément sur ```plaintext Ctrl + C```
 
