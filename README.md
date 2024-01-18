@@ -79,3 +79,4 @@ Vous aurez un message qui annoncera que le serveur est lancé et fonctionne corr
 
 Arrêtez les serveurs dans le terminal appuyez simultanément sur ```Ctrl + C```
 
+En cours d'amélioration après mûres réflexions et avoir sélectionnés parmi divers conseils.
